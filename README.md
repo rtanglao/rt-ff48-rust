@@ -1,5 +1,10 @@
 # rt-ff48-rust
+## September 16, 2016
+Change addDayOfTheyYear.rb  to handle the wraparound from 2015 to 2016
 
+1. ```./addDayOfTheyYear.rb mp4parse-commits-without-commit-reason.csv >add365-for-2015-rust-mp4-dayofyear-unixtime,-person.csv```
+1. ```sort -n add365-for-2015-rust-mp4-dayofyear-unixtime,-person.csv >add365-sorted-rust-mp4-dayofyear-unixtime-person.csv```
+1. ```Rscript add365-plot-sortedcommit-by-day-of-year.R```
 ## August 18, 2016
 1. top1 125, top2 65, one each from coolperson1, coolperson2, coolperson2, coolperson3
 1. ```cut -d, -f1-3 mp4parse-commits.csv >mp4parse-commits-without-commit-reason.csv``` # cut out column 4, retain 1-3
