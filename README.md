@@ -5,6 +5,11 @@ Change addDayOfTheyYear.rb  to handle the wraparound from 2015 to 2016
 1. ```./addDayOfTheyYear.rb mp4parse-commits-without-commit-reason.csv >add365-for-2015-rust-mp4-dayofyear-unixtime,-person.csv```
 1. ```sort -n add365-for-2015-rust-mp4-dayofyear-unixtime,-person.csv >add365-sorted-rust-mp4-dayofyear-unixtime-person.csv```
 1. ```Rscript add365-plot-sortedcommit-by-day-of-year.R```
+
+### Output
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/29645684091/in/dateposted-ff/" title="2015 and 2016 firefox 48 rust mp4 parser commits with day of year bug fixed! add365-rust-mp4-ff48-sorted-commits-by-dayofyear"><img src="https://c4.staticflickr.com/9/8080/29645684091_eb252c01bb_n.jpg" width="320" height="320" alt="2015 and 2016 firefox 48 rust mp4 parser commits with day of year bug fixed! add365-rust-mp4-ff48-sorted-commits-by-dayofyear"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 ## August 18, 2016
 1. top1 125, top2 65, one each from coolperson1, coolperson2, coolperson2, coolperson3
 1. ```cut -d, -f1-3 mp4parse-commits.csv >mp4parse-commits-without-commit-reason.csv``` # cut out column 4, retain 1-3
