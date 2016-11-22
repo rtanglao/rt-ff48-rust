@@ -1,4 +1,10 @@
 # rt-ff48-rust
+
+## November 21, 2016
+after Ralph's pull request 
+
+1. ```sh get_commits_with_lines_changed.sh``` #creates file commits.csv
+
 ## September 16, 2016
 Change addDayOfTheyYear.rb  to handle the wraparound from 2015 to 2016
 
