@@ -8,10 +8,11 @@
 ```R
 ggplot(data=data22nov2016, aes(x=commit, y=number_of_lines,fill = type))+
   geom_bar(stat="identity", width = 1)+
- facet_wrap(~type, ncol = 1)+ 
- theme_void()+ 
- theme(legend.position = 'none')+
- theme(strip.background = element_blank(),strip.text.x = element_blank())+scale_fill_manual(values=c("red", "green"))
+  facet_wrap(~type, ncol = 1)+ 
+  theme_void()+ 
+  theme(legend.position = 'none')+
+  theme(strip.background = element_blank(),strip.text.x = element_blank())+
+  scale_fill_manual(values=c("red", "green"))
 ```
 
 ## November 21, 2016
