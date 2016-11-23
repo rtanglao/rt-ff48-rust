@@ -15,6 +15,10 @@ ggplot(data=data22nov2016, aes(x=commit, y=number_of_lines,fill = type))+
   scale_fill_manual(values=c("red", "green"))
 ```
 
+### Output
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/30822766050/in/dateposted-ff/" title="rust-mp4-ff48-sorted-commits-insertion-deletion"><img src="https://c3.staticflickr.com/6/5666/30822766050_cbe361868f_n.jpg" width="320" height="274" alt="rust-mp4-ff48-sorted-commits-insertion-deletion"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 ## November 21, 2016
 after Ralph's pull request 
 
