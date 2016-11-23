@@ -4,11 +4,14 @@
 
 1. remove blank lines: ```gsed -i '/^$/d' commits.csv```
 1. create csv file w/commit-num,deletion or insertion, number of lines added or deleted:<br />```./create-csv-commitnum-type-numlines.rb  commits.csv > rust-ff48-deletions-insertions.csv```
-1. r code to plot and remove legend from faceted plot:
+1. r code to plot and remove legend from faceted plot and change colours red=deletion green=insertion:
 ```R
 ggplot(data=data22nov2016, aes(x=commit, y=number_of_lines,fill = type))+
-+     geom_bar(stat="identity", width = 1)+
-+     facet_wrap(~type, ncol = 1)+ theme_void() + theme(legend.position = 'none')+theme(strip.background = element_blank(),strip.text.x = element_blank()) 
+  geom_bar(stat="identity", width = 1)+
+ facet_wrap(~type, ncol = 1)+ 
+ theme_void()+ 
+ theme(legend.position = 'none')+
+ theme(strip.background = element_blank(),strip.text.x = element_blank())+scale_fill_manual(values=c("red", "green"))
 ```
 
 ## November 21, 2016
