@@ -1,5 +1,9 @@
 # rt-ff48-rust
 
+## November 22, 2016
+
+1. remove blank lines: ```gsed -i '/^$/d' commits.csv```
+
 ## November 21, 2016
 after Ralph's pull request 
 
