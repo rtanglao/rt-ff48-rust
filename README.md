@@ -3,7 +3,11 @@
 ## November 24, 2016
 
 1. ```cp rust-ff48-deletions-insertions.csv rust-ff48-negative-deletions-insertions.csv``` and then search and replace "deletion," with "deletion,-"
-1. ``` Rscript ./plot-rust-ff48-commits-insertions-negative-deletions.R``` key point: had to add ```position="identity"``` to ```geom_bar()``` arguments
+1. ``` Rscript ./plot-rust-ff48-commits-insertions-negative-deletions.R``` key point: [had to add ```position="identity"```](http://stackoverflow.com/questions/19481634/ggplot2-warning-stacking-not-well-defined-when-ymin-0) to ```geom_bar()``` arguments
+
+### 24Nov2016Output
+
+![negatives as red and upside down](https://github.com/rtanglao/rt-ff48-rust/blob/master/rust-mp4-ff48-sorted-commits-insertion-negative-deletion.png)
 
 ## November 23, 2016
 
