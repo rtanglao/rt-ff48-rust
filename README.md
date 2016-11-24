@@ -1,5 +1,9 @@
 # rt-ff48-rust
 
+## November 23, 2016
+
+1. @rillian flipped the graphic to get the red going down for deletions and green going up:<br />  ![](https://github.com/rtanglao/rt-ff48-rust/blob/master/front-rust-shirt_20161123a.png)
+1. and he made the back of the shirt too:<br /> ![](https://github.com/rtanglao/rt-ff48-rust/blob/master/rust-shirt-back_20161123a.png)
 ## November 22, 2016
 
 1. remove blank lines: ```gsed -i '/^$/d' commits.csv```
