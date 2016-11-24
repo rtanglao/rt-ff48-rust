@@ -1,5 +1,10 @@
 # rt-ff48-rust
 
+## November 24, 2016
+
+1. ```cp rust-ff48-deletions-insertions.csv rust-ff48-negative-deletions-insertions.csv``` and then search and replace "deletion," with "deletion,-"
+1. ``` Rscript ./plot-rust-ff48-commits-insertions-negative-deletions.R``` key point: had to add ```position="identity"``` to ```geom_bar()``` arguments
+
 ## November 23, 2016
 
 1. @rillian flipped the graphic to get the red going down for deletions and green going up:<br />  ![](https://github.com/rtanglao/rt-ff48-rust/blob/master/front-rust-shirt_20161123a.png)
